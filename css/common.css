@@ -41,3 +41,16 @@ img {
     justify-content: space-between;
     align-items: center;
 }
+
+.toggle-menu-button {
+    display: none;
+}
+
+.header-logo {
+    display: block;
+    width: 170px;
+}
+
+.site-manu ul{
+    display: flex;
+}
