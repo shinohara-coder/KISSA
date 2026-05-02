@@ -51,3 +51,15 @@
     font-family: 'Montserrat', 'sans-serif';
     font-size: 14px;
 }
+
+.link-button:hover {
+    background-color: #d8b500;
+}
+
+@media (max-width:800px) {
+    .first-view {
+        height: calc(100vh - 50px);
+        background-image: url(../images/index/bg-main-sp.jpg);
+        align-items: flex-start;
+    }
+}
