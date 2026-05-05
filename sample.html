@@ -5,41 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTMLサンプル</title>
     <style>
-        .flex-container {
-            height: 200px;
-            width: 500px;
-            display: flex;
-            align-items: center;
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 100px);
+            grid-template-rows: repeat(3, 100px);
+            column-gap: 20px;
+            row-gap: 10px;
         }
 
-        .flex-item1 {
-            background-color: red;
-            height: 30px;
-            width: 300px;
-            flex-shrink: 0;
-            flex-shrink: 1;
+        .item1 {
+            grid-column-start: 1;
+            grid-column-end: 4;
         }
 
-        .flex-item2 {
-            background-color: yellowgreen;
-            height: 80px;
-            width: 300px;
-            flex-shrink: 2;
-        }
-
-        .flex-item3 {
-            background-color: blue;
-            height: 50px;
-            width: 300px;
-            flex-shrink: 0;
+        .item2 {
+            grid-row-start: 2;
+            grid-row-end: 4;
         }
     </style>
 </head>
 <body>
-    <ul class="flex-container">
-        <li class="flex-item1">item1</li>
-        <li class="flex-item2">item2</li>
-        <li class="flex-item3">item3</li>
+    <ul class="container">
+        <li class="item1">item1</li>
+        <li class="item2">item2</li>
+        <li class="item3">item3</li>
+        <li class="item4">item4</li>
+        <li class="item5">item5</li>
+        <li class="item6">item6</li>
     </ul>
 
     <dl>
