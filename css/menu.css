@@ -54,3 +54,21 @@
     font-weight: bold;
     margin-top: 15px;
 }
+
+.item-list li {
+    position: relative;
+}
+
+.item-list .item-label {
+    position: absolute;
+    top: 0;
+    left: calc(100% + 18px);
+    font-size: 10px;
+    white-space: nowrap;
+    transform-origin: top left;
+    transform: rotate(90deg);
+}
+
+.footer {
+    margin-top: 100px;
+}
