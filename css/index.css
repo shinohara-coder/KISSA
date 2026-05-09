@@ -123,6 +123,10 @@
     margin-top: 15px;
 }
 
+.footer {
+    margin-top: 40px;
+}
+
 @media (max-width:800px) {
     .first-view {
         height: calc(100vh - 50px);
